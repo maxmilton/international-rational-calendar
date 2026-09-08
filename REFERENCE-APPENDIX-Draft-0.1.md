@@ -31,7 +31,7 @@ irc-date     = primary / week-date / ordinal-date
 primary      = regular / leap-day / year-day
 regular      = year hyphen month hyphen month-day
 leap-day     = year hyphen %x4C.44
-year-day    = year hyphen %x59.44
+year-day     = year hyphen %x59.44
 week-date    = year hyphen %x57 week hyphen %x4B weekday
 ordinal-date = year hyphen %x4F ordinal
 
@@ -357,7 +357,7 @@ daysBetween(2028-08-01, 2028-07-22) = -8
 daysBetween(2026-YD, 2027-01-01) = 1
 daysBetween(2028-LD, 2028-LD) = 0
 
-IRC-A64 decode: 0, 7, or 9 octets          -> failure
+IRC-A64 decode: 0, 7, or 9 octets         -> failure
 IRC-A64 encode: A = -9223372036854775809  -> failure
 IRC-A64 encode: A =  9223372036854775808  -> failure
 Gregorian input: (1900,2,29)              -> failure

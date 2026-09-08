@@ -608,7 +608,7 @@ M01 D01 → O001
 M07 D28 → O196
 M08 D01 → O197
 M13 D28 → O364
-YD       → O365
+YD      → O365
 ```
 
 ---
@@ -621,11 +621,11 @@ In a leap year:
 M01 D01 → O001
 ...
 M07 D28 → O196
-LD       → O197
+LD      → O197
 M08 D01 → O198
 ...
 M13 D28 → O365
-YD       → O366
+YD      → O366
 ```
 
 For a regular date:
