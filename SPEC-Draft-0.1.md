@@ -30,20 +30,20 @@ Calendar structure MUST NOT vary by language, country, culture, or locale.
 
 Localization MAY alter:
 
-* labels
-* typography
-* pronunciation
-* descriptive names
+- labels
+- typography
+- pronunciation
+- descriptive names
 
 Localization MUST NOT alter:
 
-* month order
-* week order
-* weekday order
-* numeric identity
-* leap rules
-* date arithmetic
-* canonical representation semantics
+- month order
+- week order
+- weekday order
+- numeric identity
+- leap rules
+- date arithmetic
+- canonical representation semantics
 
 In particular:
 
@@ -879,12 +879,12 @@ difference_in_days(a, b) = A(b) - A(a)
 
 This provides a compact representation suitable for:
 
-* databases
-* indexing
-* sorting
-* arithmetic
-* telemetry
-* range operations
+- databases
+- indexing
+- sorting
+- arithmetic
+- telemetry
+- range operations
 
 Derived values such as `M`, `D`, `W`, and `K` need not be stored.
 
@@ -1341,13 +1341,13 @@ This specification defines calendar dates only.
 
 It does not define:
 
-* hours
-* minutes
-* seconds
-* leap seconds
-* UTC
-* time zones
-* daylight-saving rules
+- hours
+- minutes
+- seconds
+- leap seconds
+- UTC
+- time zones
+- daylight-saving rules
 
 A time-zone system determines when a local civil date begins and ends.
 
@@ -1370,17 +1370,17 @@ SHOULD NOT be conflated.
 
 The core calendar does not define:
 
-* quarters
-* financial years
-* fiscal periods beyond months
-* public holidays
-* working days
-* weekends
-* religious observance
-* business-day arithmetic
-* seasons
-* named eras
-* time zones
+- quarters
+- financial years
+- fiscal periods beyond months
+- public holidays
+- working days
+- weekends
+- religious observance
+- business-day arithmetic
+- seasons
+- named eras
+- time zones
 
 These are policies or derived concepts layered on top of the calendar.
 
