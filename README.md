@@ -71,7 +71,7 @@ The specification defines dates. Time zones, clock times, holidays, weekends, an
 Run the checks with [Bun](https://bun.com/):
 
 ```sh
-bun test test/reference.test.ts
+bun test
 ```
 
 The [reference tests](./test/reference.test.ts) validate the published text and binary vectors, arithmetic examples, negative and non-negative calendar cycles, and Gregorian conversions. They are reference checks rather than a production calendar library or a complete certification suite.
