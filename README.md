@@ -4,8 +4,8 @@ A fixed solar calendar designed for structural regularity, precise notation, and
 
 **Status:** Draft 0.1. This repository contains the specification, reference appendix, and executable conformance checks.
 
-- [Calendar specification](./SPEC-Draft-0.1.md) — structure, semantics, notation, localization, and design principles.
-- [Reference appendix](./REFERENCE-APPENDIX-Draft-0.1.md) — exact grammar, binary encoding, conversion algorithms, arithmetic, and test vectors.
+- [Calendar specification](SPEC-Draft-0.1.md) — structure, semantics, notation, localization, and design principles.
+- [Reference appendix](REFERENCE-APPENDIX-Draft-0.1.md) — exact grammar, binary encoding, conversion algorithms, arithmetic, and test vectors.
 
 ## Structure
 
@@ -74,7 +74,7 @@ Run the checks with [Bun](https://bun.com/):
 bun test
 ```
 
-The [reference tests](./test/reference.test.ts) validate the published text and binary vectors, arithmetic examples, negative and non-negative calendar cycles, and Gregorian conversions. They are reference checks rather than a production calendar library or a complete certification suite.
+The [reference tests](test/reference.test.ts) validate the published text and binary vectors, arithmetic examples, negative and non-negative calendar cycles, and Gregorian conversions. They are reference checks rather than a production calendar library or a complete certification suite.
 
 ## Changelog
 
@@ -83,10 +83,10 @@ See [releases on GitHub](https://github.com/maxmilton/international-rational-cal
 ## License
 
 The International Rational Calendar specification and accompanying
-documentation are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See [LICENSES/CC-BY-SA-4.0.txt](./LICENSES/CC-BY-SA-4.0.txt).
+documentation are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt).
 
 Source code and executable test cases in `test/` are licensed under
-the MIT License. See [LICENSES/MIT.txt](./LICENSES/MIT.txt).
+the MIT License. See [LICENSES/MIT.txt](LICENSES/MIT.txt).
 
 The CC BY-SA license applies to the specification text and documentation, not to independent software implementations of the specification. Implementations may be distributed under any license.
 
